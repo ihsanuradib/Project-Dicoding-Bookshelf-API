@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# Dicoding-Project-Bookshelf-API
-=======
-# 📚 Bookshelf-API
-=======
-# 📚 Bookshelf API
->>>>>>> 843f985 (first commit)
+
+# ?? Bookshelf API
 
 Submission Bookshelf API - Kelas Belajar Membuat Aplikasi Back-End untuk Pemula
 
-## 🚀 Deskripsi Kelas
+## ?? Deskripsi Kelas
 
 Belajar Membuat Aplikasi Back-End untuk Pemula <br>
 Disusun oleh: Dicoding Indonesia <br>
@@ -23,19 +17,90 @@ Level: Pemula
 
 Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang Back-End Developer dengan standar kompetensi internasional milik AWS. Di akhir kelas, siswa dapat membuat RESTful API sederhana secara mandiri untuk mendukung fungsionalitas suatu aplikasi.
 
-Materi yang dipelajari:
+---
 
-- **Pengenalan ke Back-End** : Menjelaskan peran front-end dan back-end, bagaimana cara client dan server berkomunikasi melalui protokol HTTP, dan arsitektur RESTFul API dalam membangun web service. (3 Jam)
-- **Dasar-Dasar Node.js** : Mengenal Node.js serta mengetahui dasar dari Node.js seperti global dan process object, modularization, Node Package Manager (NPM), eventing, filesystem, dan teknik stream. (8 Jam)
-- **Membangun Web Service menggunakan Node.js** : Membangun Web Service menggunakan Node.js secara native dan melalui framework Hapi, membangun RESTFul API sederhana. (10 Jam)
-- **Deploy Web Service** : Mengenal dan menggunakan Amazon EC2, mengoperasikan Amazon EC2 melalui SSH, menjalankan RESTFul API di Amazon EC2. (5 Jam)
-- **Mengonsumsi dan Menguji RESTful API menggunakan Postman** : Memasang Postman. Mengonsumsi RESTful API untuk tujuan pengujian dan menuliskan skenario uji otomatis menggunakan Postman. (5 Jam)
+## ??? Cara Menggunakan Aplikasi
 
-Evaluasi pembelajaran:
+### 1. **Persiapan Lingkungan**
+Pastikan Anda sudah memiliki:
+- **Node.js** (versi terbaru): [Download di sini](https://nodejs.org)
+- **Postman** (opsional, untuk menguji API): [Download di sini](https://www.postman.com/downloads)
 
-- **Submission** : Proyek akhir berupa praktik siswa berbentuk Bookshelf API berupa membuat Back-End dari aplikasi catatan yang memiliki fungsi Create, Read, Update, dan Delete.
+### 2. **Clone Repository**
+Clone repository ini ke komputer Anda dengan perintah:
+```bash
+git clone https://github.com/username/Bookshelf-API.git
+```
+Lalu pindah ke direktori proyek:
+```bash
+cd Bookshelf-API
+```
 
-Total jam yang dibutuhkan untuk menyelesaikan kelas ini, mulai dari persiapan kelas sampai evaluasi belajar, adalah **45** jam.
+### 3. **Instalasi Dependensi**
+Jalankan perintah berikut untuk menginstal semua dependensi yang diperlukan:
+```bash
+npm install
+```
+
+### 4. **Menjalankan Server**
+Jalankan aplikasi menggunakan perintah:
+```bash
+npm start
+```
+Server akan berjalan di alamat default: `http://localhost:5000`.
+
+### 5. **Mengonsumsi API**
+Gunakan alat seperti Postman atau curl untuk mengakses endpoint berikut:
+- **POST `/books`**: Menambahkan buku baru.
+- **GET `/books`**: Mengambil daftar semua buku.
+- **GET `/books/{id}`**: Mengambil detail buku berdasarkan ID.
+- **PUT `/books/{id}`**: Memperbarui informasi buku berdasarkan ID.
+- **DELETE `/books/{id}`**: Menghapus buku berdasarkan ID.
+
+### 6. **Contoh Permintaan (Request)**
+**Menambahkan Buku Baru**
+- Endpoint: `POST /books`
+- Body (JSON):
+  ```json
+  {
+    "name": "Belajar Node.js",
+    "year": 2024,
+    "author": "John Doe",
+    "summary": "Panduan belajar Node.js untuk pemula",
+    "publisher": "Dicoding Publisher",
+    "pageCount": 300,
+    "readPage": 50,
+    "reading": true
+  }
+  ```
+
+**Mendapatkan Daftar Buku**
+- Endpoint: `GET /books`
+- Response (contoh):
+  ```json
+  {
+    "status": "success",
+    "data": {
+      "books": [
+        {
+          "id": "Qbax5Oy7L8WKf74l",
+          "name": "Belajar Node.js",
+          "publisher": "Dicoding Publisher"
+        }
+      ]
+    }
+  }
+  ```
+
+---
+
+## ?? Pengujian API
+1. Gunakan **Postman** atau **tool lainnya** untuk mengirim request ke endpoint yang disediakan.
+2. Pastikan semua operasi (Create, Read, Update, Delete) berjalan dengan benar sesuai kriteria.
+
+---
+
+## ?? Evaluasi Pembelajaran
+Proyek ini adalah bagian dari evaluasi akhir kelas "Belajar Membuat Aplikasi Back-End untuk Pemula" oleh Dicoding Indonesia. Proyek ini mencakup pembuatan RESTful API dengan fungsionalitas CRUD.
 
 [^1]: [Show Credential](https://www.dicoding.com/certificates/QLZ9Q2MM2Z5D)
->>>>>>> 791db95 (first commit)
