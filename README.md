@@ -29,7 +29,7 @@ Pastikan Anda sudah memiliki:
 ### 2. **Clone Repository**
 Clone repository ini ke komputer Anda dengan perintah:
 ```bash
-git clone https://github.com/username/Bookshelf-API.git
+https://github.com/ihsanuradib/Project-Dicoding-Bookshelf-API.git
 ```
 Lalu pindah ke direktori proyek:
 ```bash
