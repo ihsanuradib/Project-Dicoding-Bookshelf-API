@@ -1,9 +1,9 @@
 
-# ?? Bookshelf API
+# 📚 Bookshelf API
 
 Submission Bookshelf API - Kelas Belajar Membuat Aplikasi Back-End untuk Pemula
 
-## ?? Deskripsi Kelas
+## 🚀 Deskripsi Kelas
 
 Belajar Membuat Aplikasi Back-End untuk Pemula <br>
 Disusun oleh: Dicoding Indonesia <br>
@@ -19,7 +19,7 @@ Kelas ini ditujukan untuk individu yang ingin melangkah menjadi seorang Back-End
 
 ---
 
-## ??? Cara Menggunakan Aplikasi
+## 🛠️ Cara Menggunakan Aplikasi
 
 ### 1. **Persiapan Lingkungan**
 Pastikan Anda sudah memiliki:
@@ -94,13 +94,13 @@ Gunakan alat seperti Postman atau curl untuk mengakses endpoint berikut:
 
 ---
 
-## ?? Pengujian API
+## 🧪 Pengujian API
 1. Gunakan **Postman** atau **tool lainnya** untuk mengirim request ke endpoint yang disediakan.
 2. Pastikan semua operasi (Create, Read, Update, Delete) berjalan dengan benar sesuai kriteria.
 
 ---
 
-## ?? Evaluasi Pembelajaran
+## 📄 Evaluasi Pembelajaran
 Proyek ini adalah bagian dari evaluasi akhir kelas "Belajar Membuat Aplikasi Back-End untuk Pemula" oleh Dicoding Indonesia. Proyek ini mencakup pembuatan RESTful API dengan fungsionalitas CRUD.
 
 [^1]: [Show Credential](https://www.dicoding.com/certificates/QLZ9Q2MM2Z5D)
